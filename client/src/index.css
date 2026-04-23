@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --color-facebook: #3d5a98;
+}
+
+body {
+    font-family: 'Iosevka Charon', monospace;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    user-select: none;
+}
+
+.auth {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/auth-bg.jpg');
+    background-size: cover;
+}

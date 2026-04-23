@@ -1,5 +1,7 @@
+import Routes from './routes/Routes';
+
 const App = () => {
-    return null;
+    return <Routes />;
 };
 
 export default App;
